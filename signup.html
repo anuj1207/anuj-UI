@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  	<script src="jquery.min.s">/script>
+  	<script src="js/bootstrap.min.js"></script>
+  	<script src="myJS.js">window.onload=showtime;</script>
+    <script type="text/javascript">
+      window.onload=showtime;
+    </script>
+  	<link rel="stylesheet" type="text/css" href="template10.css">
+  </head>
+  <body>
+    <form class = "form-horizontal" name="signup" role = "form">
+
+       <div class = "form-group">
+          <label for = "firstname" class = "col-sm-2 control-label">First Name</label>
+
+          <div class = "col-sm-10">
+             <input type = "text" class = "form-control" id = "fname" placeholder = "Enter First Name" required>
+          </div>
+       </div>
+
+       <div class = "form-group">
+          <label for = "lastname" class = "col-sm-2 control-label">Last Name</label>
+
+          <div class = "col-sm-10">
+             <input type = "text" class = "form-control" id = "lname" placeholder = "Enter Last Name">
+          </div>
+       </div>
+
+       <div class = "form-group">
+          <label for = "mail" class = "col-sm-2 control-label">Email</label>
+
+          <div class = "col-sm-10">
+             <input type = "text" class = "form-control" id = "mail" placeholder = "Enter mail Id" required>
+          </div>
+       </div>
+
+       <div class = "form-group">
+          <label for = "pass" class = "col-sm-2 control-label">Enter Password</label>
+
+          <div class = "col-sm-10">
+             <input type = "password" class = "form-control" id = "pass" placeholder = "Enter password" required>
+          </div>
+       </div>
+
+       <div class = "form-group">
+          <label for = "confpass" class = "col-sm-2 control-label">Confirm Your Password</label>
+
+          <div class = "col-sm-10">
+             <input type = "password" class = "form-control" id = "confpass" placeholder = "Confirm password" required>
+          </div>
+       </div>
+
+       <div class = "form-group">
+          <div class = "col-sm-offset-2 col-sm-10">
+             <button type = "submit" class = "btn btn-default" onclick="finalValidateSignUp()">Sign Up</button>
+          </div>
+       </div>
+
+    </form>
+  </body>
+</html>
